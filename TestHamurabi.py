@@ -1,7 +1,4 @@
-
 class HammurabiTest:
-    def __init__(self):
-        self.ham = Hammurabi()
 
     def about(self, expected, actual):
         return 0.90 * expected < actual < 1.10 * expected
